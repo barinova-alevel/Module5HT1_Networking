@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace Module5HT1_Networking
+﻿namespace Module5HT1_Networking
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
-            
+            Starter s = new Starter();
+            s.StartApplication();
         }
+
     }
 }
